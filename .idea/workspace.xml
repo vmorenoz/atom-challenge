@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c43a865-448c-4da5-997c-6968205568ae" name="Changes" comment="">
+    <list default="true" id="6c43a865-448c-4da5-997c-6968205568ae" name="Changes" comment="feat: init repo">
       <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/firebase.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +96,15 @@
       <updated>1757800535226</updated>
       <workItem from="1757800536363" duration="251000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: init repo">
+      <option name="closed" value="true" />
+      <created>1757806248023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757806248023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,5 +125,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/frontend" />
     </ignored-roots>
+    <MESSAGE value="feat: init repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: init repo" />
   </component>
 </project>
