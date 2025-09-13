@@ -1,0 +1,105 @@
+<section class="w-screen min-h-screen bg-gray-100">
+  <app-navbar/>
+  <div class="mx-auto max-w-lg py-5">
+    <div class="flex justify-between items-end">
+      <h1 class="text-xl font-bold text-base-content">Listado de tareas</h1>
+      <div class="tooltip tooltip-bottom" data-tip="Nueva tarea">
+        <button class="btn btn-primary btn-icon" type="button" (click)="handleCreateTask()">
+          <i class="fa fa-solid fa-plus"></i>
+        </button>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="tabs tabs-lift">
+      <label class="tab">
+        <input type="radio" name="status-tab" [formControl]="statusActive" [value]="false"/>
+        <i class="fa-solid fa-clock text-warning text-lg mr-2"></i>
+        Pendientes
+      </label>
+      <div class="tab-content bg-base-100 border-base-300">
+        <ul class="list rounded-box shadow-md">
+          <li class="p-4 pb-2 text-xs opacity-60 tracking-wide">Tareas que todavía no has terminado</li>
+          @for (task of pendingTasks(); track $index){
+            <li class="list-row">
+              <div class="bg-warning/10 rounded-full w-10 flex items-center justify-center">
+                <i class="fa-solid fa-clock text-xl text-warning"></i>
+              </div>
+              <div>
+                <div>{{ task.title }}</div>
+                <div class="text-xs font-semibold opacity-60">
+                  {{task.description}}
+                </div>
+              </div>
+              <div class="flex gap-1">
+                <div class="tooltip" data-tip="Marcar cómo completada">
+                  <button class="btn btn-square btn-sm btn-ghost" (click)="handleMarkComplete(task)">
+                    <i class="fa-solid fa-check"></i>
+                  </button>
+                </div>
+                <div class="tooltip" data-tip="Editar">
+                  <button class="btn btn-square btn-sm btn-ghost" (click)="handleEditTask(task)">
+                    <i class="fa-solid fa-pen"></i>
+                  </button>
+                </div>
+                <div class="tooltip" data-tip="Eliminar">
+                  <button class="btn btn-square btn-sm btn-soft btn-error" (click)="handleDeleteTask(task.id)">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </div>
+              </div>
+            </li>
+          } @empty {
+            <div class="p-4 text-center opacity-60">
+              No hay tareas pendientes. ¡Disfruta tu día! <i class="fa-solid fa-face-smile-beam ml-2"></i>
+            </div>
+          }
+        </ul>
+      </div>
+
+      <label class="tab">
+        <input type="radio" name="status-tab" [formControl]="statusActive" [value]="true" />
+        <i class="fa-solid fa-circle-check text-success text-lg mr-2"></i>
+        Completadas
+      </label>
+      <div class="tab-content bg-base-100 border-base-300">
+        <ul class="list rounded-box shadow-md">
+          <li class="p-4 pb-2 text-xs opacity-60 tracking-wide">Tareas que ya has terminado</li>
+          @for (task of completedTasks(); track $index){
+            <li class="list-row">
+              <div class="bg-success/10 rounded-full w-10 flex items-center justify-center">
+                <i class="fa-solid fa-circle-check text-xl text-success"></i>
+              </div>
+              <div>
+                <div>{{ task.title }}</div>
+                <div class="text-xs font-semibold opacity-60">
+                  {{task.description}}
+                </div>
+              </div>
+              <div class="flex gap-1">
+                <div class="tooltip" data-tip="Eliminar">
+                  <button class="btn btn-square btn-sm btn-soft btn-error" (click)="handleDeleteTask(task.id)">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </div>
+              </div>
+            </li>
+          } @empty {
+            <div class="p-4 text-center opacity-60">
+              No hay tareas completadas. ¡Empieza con úna! <i class="fa-solid fa-face-grin-stars ml-2"></i>
+            </div>
+          }
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+@if (toastMessage()) {
+  <div class="toast toast-center">
+    <div class="alert" [ngClass]="{'alert-success': toastType() === 'success', 'alert-error': toastType() === 'error'}">
+      <span>
+        {{toastMessage()}}
+      </span>
+    </div>
+  </div>
+}

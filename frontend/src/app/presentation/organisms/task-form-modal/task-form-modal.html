@@ -1,0 +1,21 @@
+<form [formGroup]="taskForm" (ngSubmit)="handleSubmit()" autocomplete="off" novalidate>
+  <div class="card card-border bg-base-100">
+    <div class="card-body">
+      <h2 class="card-title">
+        {{ isEdition() ? 'Modificar tarea' : 'Nueva tarea' }}
+      </h2>
+      <fieldset class="fieldset">
+        <legend class="fieldset-legend">Título</legend>
+        <input type="text" formControlName="title" class="input w-full" placeholder="Escribelo aquí"/>
+      </fieldset>
+      <fieldset class="fieldset">
+        <legend class="fieldset-legend">Descripción</legend>
+        <input type="text" formControlName="description" class="input w-full" placeholder="Escribela aquí"/>
+      </fieldset>
+      <div class="card-actions justify-end">
+        <app-button type="button" label="Cancelar" (click)="handleCancel()"/>
+        <app-button type="submit" label="Guardar" color="primary" [disabled]="taskForm.invalid"/>
+      </div>
+    </div>
+  </div>
+</form>

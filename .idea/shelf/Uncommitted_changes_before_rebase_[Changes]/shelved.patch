@@ -1,0 +1,115 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"6c43a865-448c-4da5-997c-6968205568ae\" name=\"Changes\" comment=\"feat: initial commit\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/backend/functions/src/config/firebase.ts\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/backend/functions/src/config/firebase.ts\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"vmorenoz\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GitToolBoxStore\">\r\n    <option name=\"recentBranches\">\r\n      <RecentBranches>\r\n        <option name=\"branchesForRepo\">\r\n          <list>\r\n            <RecentBranchesForRepo>\r\n              <option name=\"branches\">\r\n                <list>\r\n                  <RecentBranch>\r\n                    <option name=\"branchName\" value=\"main\" />\r\n                    <option name=\"lastUsedInstant\" value=\"1757800578\" />\r\n                  </RecentBranch>\r\n                  <RecentBranch>\r\n                    <option name=\"branchName\" value=\"master\" />\r\n                    <option name=\"lastUsedInstant\" value=\"1757800577\" />\r\n                  </RecentBranch>\r\n                </list>\r\n              </option>\r\n              <option name=\"repositoryRootUrl\" value=\"file://$PROJECT_DIR$/frontend\" />\r\n            </RecentBranchesForRepo>\r\n          </list>\r\n        </option>\r\n      </RecentBranches>\r\n    </option>\r\n  </component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/vmorenoz/atom-challenge.git\",\r\n    \"accountId\": \"6eae7625-5325-4730-b1a7-ec499ab4572f\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 6\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"32f906AkQEGOntpwnnvl7VYpR1Z\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showExcludedFiles\" value=\"false\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n    <option name=\"showScratchesAndConsoles\" value=\"false\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"project.propVCSSupport.DirectoryMappings\",\r\n    \"ts.external.directory.path\": \"C:\\\\Users\\\\VICTOR\\\\Documents\\\\Projects\\\\atom-challenge\\\\backend\\\\functions\\\\node_modules\\\\typescript\\\\lib\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"6c43a865-448c-4da5-997c-6968205568ae\" name=\"Changes\" comment=\"\" />\r\n      <created>1757800535226</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1757800535226</updated>\r\n      <workItem from=\"1757800536363\" duration=\"1262000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"feat: initial commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1757800806218</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1757800806218</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <ignored-roots>\r\n      <path value=\"$PROJECT_DIR$/frontend\" />\r\n    </ignored-roots>\r\n    <MESSAGE value=\"feat: initial commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"feat: initial commit\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 94369983d7f2d8a685a60cb5d38ca59637d04dec)
++++ b/.idea/workspace.xml	(date 1757805181335)
+@@ -4,9 +4,23 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="6c43a865-448c-4da5-997c-6968205568ae" name="Changes" comment="feat: initial commit">
++    <list default="true" id="6c43a865-448c-4da5-997c-6968205568ae" name="Changes" comment="feat: remove keys">
++      <change beforePath="$PROJECT_DIR$/.firebaserc" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/backend/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/firebase.json" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/backend/functions/src/config/firebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/functions/src/config/firebase.ts" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/backend/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/functions/src/index.ts" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/public/chunk-72QAZPSI.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/public/chunk-72QAZPSI.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/public/chunk-H5TFSQ5Q.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/public/chunk-H5TFSQ5Q.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/public/chunk-NSS6LMV4.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/public/chunk-NSS6LMV4.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/public/chunk-TUCGG4MJ.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/public/chunk-TUCGG4MJ.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/backend/public/favicon.ico" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/public/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/public/main-X3E7M3PM.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/public/main-X3E7M3PM.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/public/polyfills-5CFQRCPP.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/public/polyfills-5CFQRCPP.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/public/styles-TYJWZCWN.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/public/styles-TYJWZCWN.css" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -70,6 +84,7 @@
+     "RunOnceActivity.git.unshallow": "true",
+     "git-widget-placeholder": "main",
+     "ignore.virus.scanning.warn.message": "true",
++    "last_opened_file_path": "C:/Users/VICTOR/Documents/Projects/atom-challenge/backend/public",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+@@ -80,6 +95,11 @@
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\VICTOR\Documents\Projects\atom-challenge\backend\public" />
++    </key>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -94,7 +114,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1757800535226</updated>
+-      <workItem from="1757800536363" duration="1262000" />
++      <workItem from="1757800536363" duration="4283000" />
+     </task>
+     <task id="LOCAL-00001" summary="feat: initial commit">
+       <option name="closed" value="true" />
+@@ -104,7 +124,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1757800806218</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="feat: remove keys">
++      <option name="closed" value="true" />
++      <created>1757802117665</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1757802117665</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -115,6 +143,7 @@
+       <path value="$PROJECT_DIR$/frontend" />
+     </ignored-roots>
+     <MESSAGE value="feat: initial commit" />
+-    <option name="LAST_COMMIT_MESSAGE" value="feat: initial commit" />
++    <MESSAGE value="feat: remove keys" />
++    <option name="LAST_COMMIT_MESSAGE" value="feat: remove keys" />
+   </component>
+ </project>
+\ No newline at end of file
+diff --git a/public/chunk-NSS6LMV4.js b/backend/public/chunk-NSS6LMV4.js
+rename from public/chunk-NSS6LMV4.js
+rename to backend/public/chunk-NSS6LMV4.js
+diff --git a/public/chunk-H5TFSQ5Q.js b/backend/public/chunk-H5TFSQ5Q.js
+rename from public/chunk-H5TFSQ5Q.js
+rename to backend/public/chunk-H5TFSQ5Q.js
+diff --git a/public/chunk-TUCGG4MJ.js b/backend/public/chunk-TUCGG4MJ.js
+rename from public/chunk-TUCGG4MJ.js
+rename to backend/public/chunk-TUCGG4MJ.js
+diff --git a/public/chunk-72QAZPSI.js b/backend/public/chunk-72QAZPSI.js
+rename from public/chunk-72QAZPSI.js
+rename to backend/public/chunk-72QAZPSI.js
+diff --git a/public/polyfills-5CFQRCPP.js b/backend/public/polyfills-5CFQRCPP.js
+rename from public/polyfills-5CFQRCPP.js
+rename to backend/public/polyfills-5CFQRCPP.js
+diff --git a/public/main-X3E7M3PM.js b/backend/public/main-X3E7M3PM.js
+rename from public/main-X3E7M3PM.js
+rename to backend/public/main-X3E7M3PM.js
+diff --git a/public/index.html b/backend/public/index.html
+rename from public/index.html
+rename to backend/public/index.html
+diff --git a/public/styles-TYJWZCWN.css b/backend/public/styles-TYJWZCWN.css
+rename from public/styles-TYJWZCWN.css
+rename to backend/public/styles-TYJWZCWN.css

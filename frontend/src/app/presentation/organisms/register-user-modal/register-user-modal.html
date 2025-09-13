@@ -1,0 +1,14 @@
+<div class="card card-border bg-base-100">
+  <div class="card-body">
+    <h2 class="card-title">
+      Nuevo usuario
+    </h2>
+    <p>
+      El usuario {{ dialogData.email }} no existe, deseas registrarlo?
+    </p>
+    <div class="card-actions justify-end">
+      <app-button type="button" label="No" (click)="handleCancel()"/>
+      <app-button type="button" label="Sí, registrame" color="primary" (click)="handleSubmit()"/>
+    </div>
+  </div>
+</div>

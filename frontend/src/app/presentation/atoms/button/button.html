@@ -1,0 +1,13 @@
+<button
+  [type]="type()"
+  class="btn"
+  [ngClass]="buttonClasses"
+  [disabled]="disabled()">
+  @if(loading()){
+    <span class="loading loading-spinner"></span>
+  }
+  {{ label() }}
+  @if (icon()) {
+    <i class="{{icon()}}"></i>
+  }
+</button>

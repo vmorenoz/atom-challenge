@@ -1,0 +1,26 @@
+<section class="w-screen min-h-screen flex flex-col items-center justify-center bg-gray-100">
+  <form [formGroup]="signInForm" (ngSubmit)="handleSignIn()" autocomplete="off" novalidate class="w-full md:max-w-md">
+    <div class="card bg-base-100">
+      <div class="card-body">
+        <h2 class="card-title"><i class="fa-solid fa-robot"></i> Hola!, humano</h2>
+        <p>Identificate para continuar...</p>
+        <fieldset class="fieldset">
+          <legend class="fieldset-legend">¿Cual es tu correo electronico?</legend>
+          <input type="text" formControlName="email" class="input w-full" placeholder="Escribelo aquí"/>
+          @if (erroMessage()){
+            <p class="label text-error">{{ erroMessage() }}</p>
+          }
+        </fieldset>
+        <div class="card-actions justify-end">
+          <app-button
+            type="submit"
+            color="primary"
+            label="Acceder"
+            icon="fa-solid fa-unlock"
+            [loading]="isLoading()"
+            [disabled]="signInForm.invalid"/>
+        </div>
+      </div>
+    </div>
+  </form>
+</section>

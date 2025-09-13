@@ -1,0 +1,10 @@
+@use "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@theme {
+  --font-sans: "Outfit", sans-serif;
+}
+
+@plugin "daisyui" {
+  themes: bumblebee --default, dark --prefersdark;
+}
