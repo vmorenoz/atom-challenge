@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c43a865-448c-4da5-997c-6968205568ae" name="Changes" comment="feat: init repo">
-      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/firebase.json" afterDir="false" />
+    <list default="true" id="6c43a865-448c-4da5-997c-6968205568ae" name="Changes" comment="feat: prepare hosting">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757806248023</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: prepare hosting">
+      <option name="closed" value="true" />
+      <created>1757806610148</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757806610148</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +133,7 @@
       <path value="$PROJECT_DIR$/frontend" />
     </ignored-roots>
     <MESSAGE value="feat: init repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: init repo" />
+    <MESSAGE value="feat: prepare hosting" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: prepare hosting" />
   </component>
 </project>
